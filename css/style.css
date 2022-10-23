@@ -1397,10 +1397,10 @@ ul.social-network li {
     position:fixed;
 	width:32px;
 	height:32px;
-    bottom:0px;
+    bottom:20px;
     right:20px;
 	background: #03045e;
-	
+	border-radius: 5px;
 }
 
 a.scrollup {
@@ -1413,7 +1413,7 @@ a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
 	text-decoration:none;
 }
 a.scrollup i {
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	color: #fff;
 }
 a.scrollup i:hover {
@@ -1773,4 +1773,10 @@ padding:50px 0
     margin: 0;
     padding: 22px 0 14px;
     font-size: 18px;
+}
+
+/* ===== Unsorted =====*/
+
+.sign-upButton  {
+	border-radius: 100px;
 }
